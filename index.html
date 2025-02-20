@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Raymondoes</title>
+    <link rel="icon" type="image/x-icon" href="content/fire.avif">
+    <!-- Use the stable Tailwind CSS CDN instead of @tailwindcss/browser -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Your custom CSS (optional) -->
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body class="bg-gradient-to-r from-gray-950 via-black to-gray-950">
+    <main class="min-h-screen md:flex md:flex-col items-center">
+
+      <!-- HEADER SECTION -->
+      <section class="w-full flex flex-col items-center text-center px-4 pt-10">
+        <!-- Main Heading -->
+        <h1 class="text-4xl sm:text-5xl h-[90px] md:text-6xl font-extrabold
+                   bg-gradient-to-r from-blue-500 via-teal-500 to-blue-500
+                   bg-clip-text text-transparent
+                   leading-tight">
+          Hi, I'm Raymond
+        </h1>
+        <!-- Description Text -->
+        <p class="mt-6 text-sky-300 text-lg sm:text-xl md:text-2xl max-w-2xl leading-relaxed">
+          I am a Chinese-Indonesian Programmer. Or you could say I live in North Sumatra. <br>
+          I am interested in tech topics, and a lot of other topics based on Operating Systems.
+        </p>
+      </section>
+
+      <!-- SOCIAL MEDIA SECTION -->
+      <section class="w-full mt-16 px-4 flex flex-col items-center">
+        <!-- Social Media Heading -->
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-extrabold
+                   bg-gradient-to-r h-[60px] from-blue-500 to-teal-400
+                   bg-clip-text text-transparent text-center">
+          Social Media
+        </h2>
+        <!-- Social Media Buttons -->
+        <!-- CHANGED: Removed sm:flex-row so they always stack vertically -->
+        <div class="mt-10 flex flex-col items-center justify-center gap-4">
+          <a href="https://discord.gg/fWTfpqyG39">
+            <button class="text-white font-bold border-4 border-purple-900
+                           h-14 w-32 rounded-full
+                           hover:border-purple-400 active:border-purple-950
+                           transition active:scale-75">
+              Discord
+            </button>
+          </a>
+          <a href="https://x.com/raymondoesoff">
+            <button class="text-white font-bold border-4 border-sky-400
+                           h-14 w-32 rounded-full
+                           hover:border-blue-400 active:border-blue-950
+                           transition active:scale-75">
+              Twitter
+            </button>
+          </a>
+          <a href="https://www.youtube.com/@raymondoes">
+            <button class="text-white font-bold border-4 border-red-700
+                           h-14 w-32 rounded-full
+                           hover:border-red-400 active:border-red-950
+                           transition active:scale-75">
+              YouTube
+            </button>
+          </a>
+        </div>
+      </section>
+
+      <!-- PROJECTS SECTION -->
+      <section class="w-full mt-16 px-4 flex flex-col items-center">
+        <!-- Projects Heading -->
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-extrabold
+                   bg-gradient-to-r from-green-300 to-green-600
+                   bg-clip-text text-transparent text-center">
+          My Frontend Projects (Old to New)
+        </h2>
+
+        <!-- Project Cards -->
+        <!-- CHANGED: Removed md:flex-row so cards always stack vertically -->
+        <div class="mt-10 flex flex-col items-center justify-center gap-8">
+          <!-- Project Card 1 -->
+          <a href="https://raymondoes.github.io/sadartech/" 
+             class="bg-blue-950 w-full md:w-[500px] rounded-2xl 
+                    shadow-2xl shadow-blue-500 overflow-hidden
+                    transition-transform duration-300 
+                    hover:-translate-y-2 hover:bg-blue-800">
+            <img src="content/sadar.png"
+                 alt="Sadar Tech Corps"
+                 class="w-full h-auto object-cover">
+            <div class="p-4">
+              <h3 class="text-white font-bold text-2xl text-center mb-2">
+                Sadar Tech Corporation
+              </h3>
+              <p class="text-white font-medium text-center">
+                One of the largest projects I've ever finished. <br>
+                <span class="text-sky-300 font-semibold">
+                  January 8 2025
+                </span>
+              </p>
+            </div>
+          </a>
+
+          <!-- Project Card 2 -->
+          <a href="https://raymondoes.github.io/berdinhtml/"
+             class="bg-orange-950 w-full md:w-[500px] rounded-2xl 
+                    shadow-2xl shadow-orange-500 overflow-hidden
+                    transition-transform duration-300 
+                    hover:-translate-y-2 hover:bg-orange-800">
+            <img src="content/berdin.png"
+                 alt="Berdin Labs"
+                 class="w-full h-auto object-cover">
+            <div class="p-4">
+              <h3 class="text-white font-bold text-2xl text-center mb-2">
+                Berdin Labs
+              </h3>
+              <p class="text-white font-medium text-center">
+                My first ever project involving TailwindCSS 3. <br>
+                <span class="text-sky-300 font-semibold">
+                  December 11 2024
+                </span>
+              </p>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- END MAIN CONTENT -->
+    </main>
+    <script src="src/main.js"></script>
+  </body>
+</html>
+
